@@ -1273,7 +1273,7 @@
 #define BMA_MAX_RETRY_I2C_XFER (100)
 
 #ifdef CONFIG_DOUBLE_TAP
-#define DEFAULT_TAP_JUDGE_PERIOD 1000    /* default judge in 1 second */
+#define DEFAULT_TAP_JUDGE_PERIOD 500    /* default judge in 1 second. changed to half second */
 #endif
 
 /*! Bosch sensor unknown place*/
